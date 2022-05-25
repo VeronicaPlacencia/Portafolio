@@ -1,0 +1,142 @@
+body{    
+  background-image: url("background-image.jpeg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.titulo{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+    font-family: "SanchezSlab Semibold",Georgia,serif;
+}
+
+.div-perfil{
+    display: flex;
+    margin-left: 20px;
+}
+.div-foto-perfil{
+    margin-left: 70px; 
+    width: 50pt;
+    height: min-content;
+    
+}
+.nombre-usuario{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 0;
+    padding-left: 0;
+    color: rgb(255,255,255);
+    font-size: large;
+    font-family: "SanchezSlab Semibold",Georgia,serif;
+}
+.imagen{
+    max-width: 300%;
+    max-height: 30%;
+    border-radius: 100px;
+    border-width: 2px;
+    border-style: double;
+    border-color: white;
+}
+.introduccion{
+    margin-top: 20px;
+    margin-left: 280px;
+    color: white;
+    font-size: 15pt;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.proyectos h2{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+
+}
+.proyectos{
+    display: block;
+    width: 52.5%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 440px;
+    color: white;
+    font-size: 13pt;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+.introduccion h2{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: white;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-top-left-radius:15px ;
+    border-top-right-radius: 15px;
+}
+
+.div-habilidades{
+    margin-top: 0;
+    padding-left: 60px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    background-color: white;
+    list-style-type: disc;
+    line-height: 2;
+    font-size: 13pt;
+    color: black;
+    
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.div-proyectos{
+    line-height: 2;
+    background-color: white;
+    list-style-type: disc;
+    line-height: 2;
+    font-size: 13pt;
+    color: black;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.link-project{
+    color: black;
+    text-decoration: none;
+}
+.icon-contact{
+    width: 4%;
+    height: auto;
+}
+
+#footer {
+    width: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    color:white;
+    font-size: 15pt;
+    
+}
+#contacto a img{
+    width: 25pt;
+    padding-top: 2%;
+    padding-left: 2pt;
+    padding-bottom: 2%;
+}
